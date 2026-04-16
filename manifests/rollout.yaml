@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/bogdanstoicasn/wrong_image:latest
+          image: ghcr.io/bogdanstoicasn/pffff:latest
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
